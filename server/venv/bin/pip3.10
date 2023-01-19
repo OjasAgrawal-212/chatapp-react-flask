@@ -1,4 +1,4 @@
-#!/home/ojas/Desktop/programs/react/chatapp/chatApp/chatapp-react-flask/server/venv/bin/python3
+#!/home/ojas/Desktop/programs/react/chatapp/chatApp/chatapp-react-flask/server/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

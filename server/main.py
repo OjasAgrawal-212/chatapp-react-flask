@@ -1,10 +1,9 @@
-from flask import Flask
+import socketio
 
-app = Flask(__name__)
+# create a Socket.IO server
+sio = socketio.Server()
 
-@app.route('/')
-def main():
-    return "Hello world"
+# wrap with a WSGI application
+app = socketio.WSGIApp(sio)
 
-if __name__ == "__main__":
-    app.run(debug=True)
+sio.
